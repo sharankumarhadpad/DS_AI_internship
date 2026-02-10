@@ -10,4 +10,4 @@ sensor_R=np.arange(24)
 print(sensor_R)
 print(sensor_R.reshape(4,3,2))
 print(sensor_R.reshape(4,2,3))
-            
+        
