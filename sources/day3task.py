@@ -4,7 +4,7 @@ print(inventory.append("eggs"),inventory)
 print(inventory.remove("Bananas"),inventory)
 print(inventory[0:4])
 inventory.sort()  
-print(inventory) 
+print(inventory)
 
  # the data slicer
 temperature = [22, 24, 25, 28, 30, 29, 27, 26, 24, 22]
