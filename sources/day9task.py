@@ -12,9 +12,9 @@ grades.fillna(0)
 print(grades[grades > 60])
 
 # task 3 the username formatter
-usernames = pd.Series(['alice,'bob','Charlie_data','daisy'])
+usernames = pd.Series(['Alice','bob','Charlie_Data','daisy'])
 usernames.str.strip()
 usernames.str.lower()
-1w = usernames.str.lower()
-1w.str.contains(('a'))
-print(1w[1w.str.contains('a')])
+lo = usernames.str.lower()
+lo.str.contains(('a'))
+print(lo[lo.str.contains('a')])
