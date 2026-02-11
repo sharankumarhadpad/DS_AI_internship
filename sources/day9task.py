@@ -18,3 +18,4 @@ usernames.str.lower()
 lo = usernames.str.lower()
 lo.str.contains(('a'))
 print(lo[lo.str.contains('a')])
+
