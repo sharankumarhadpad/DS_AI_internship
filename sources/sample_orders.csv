@@ -1,0 +1,12 @@
+order_id,customer_name,product,quantity,price,date
+ORD-1000,Customer_1,Product_1,1,10.5$,2024-01-02
+ORD-1001,Customer_2,Product_2,2,12.8$,2024-01-05
+ORD-1002,Customer_3,Product_3,,15.1$,2024-01-08
+ORD-1003,Customer_4,PRODUCT_4,4,17.4$,2024-01-10
+ORD-1003,Customer_5,Product_5,1,19.7$,2024-01-12
+ord-1005,Customer_6,Product_1,2,22$,2024-01-15
+ORD-1007,Customer_7,Product_2,3,24.3$,2024-01-18
+ORD-1007,Customer_7,Product_2,3,24.3$,2024-01-18
+ORD-1008,Customer_9,Product_4,1,28.9$,2024-01-20
+ORD-1009,Customer_10,Product_5,2,31.2$,2024-01-25
+ORD-1010,Customer_11,Product_1,3,33.5$,2024-01-30
