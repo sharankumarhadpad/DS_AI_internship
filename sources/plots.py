@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 print("hello world    ")
 print("this is edited in main branch")
+=======
+print("Hello")
+>>>>>>> feature-viz
