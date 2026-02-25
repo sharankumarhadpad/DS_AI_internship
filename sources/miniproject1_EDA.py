@@ -4,7 +4,7 @@ import seaborn as sns
 
 df = pd.read_csv("C:/Users/HP/Downloads/customer_analytics (1).csv")
 print(df.head())
-print(df.info())
+print(df.info())              
 print(df.describe())
 
 
@@ -55,3 +55,7 @@ plt.title("Age vs Spending Score")
 plt.show()
 
 #The relationship between age and spending score appears weak, with spending distributed across different age groups.
+corr = df.corr(numeric_only=True)
+sns.heatmap(corr, annot=True, cmap='coolwarm')
+plt.tight_layout()
+plt.show()
